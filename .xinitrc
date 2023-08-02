@@ -51,6 +51,7 @@ fi
 
 synclient TapButton1=1
 setxkbmap us &
+dunst &
 picom -f &
 nitrogen --restore &
 exec bspwm

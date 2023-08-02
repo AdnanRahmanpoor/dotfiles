@@ -11,11 +11,8 @@ super + @space
 	dmenu_run
 
 # rofi
-alt + tab
-	sh $HOME/.config/rofi/bin/window
-super + {d,r,p,s}
-	sh $HOME/.config/rofi/bin/{launcher,runner,powermenu,screenshot}
-
+super + {r,d,w}
+  rofi -show {run,drun,window} -theme ~/.config/rofi/tokyonight.rasi
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
