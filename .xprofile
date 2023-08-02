@@ -1,0 +1,6 @@
+synclient TapButton1=1
+setxkbmap us &
+nitrogen --restore &
+dunst &
+picom -f &
+exec bspwm
