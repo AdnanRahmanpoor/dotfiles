@@ -3,4 +3,5 @@ setxkbmap us &
 nitrogen --restore &
 dunst &
 picom -f &
+lxqt-policykit-agent &
 exec bspwm

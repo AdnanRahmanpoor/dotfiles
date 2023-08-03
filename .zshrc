@@ -21,7 +21,7 @@ source ~/zsh-autocomplete-git/src/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 plugins=(fzf git z)
 
 source $ZSH/oh-my-zsh.sh
-
+typeset -g POWERLEVEL10K_INSTANT_PROMPT=off
 # User configuration
 # Set personal aliases, overriding those provided by oh-my-zsh libs, plugins, and themes. Aliases can be placed here, though oh-my-zsh users are encouraged to define aliases within the ZSH_CUSTOM folder.
 #
@@ -36,10 +36,12 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias ll="ls -la"
 alias p="sudo pacman -S " 
+alias y="yay -S"
 alias zsh="source ~/.zshrc"
 alias cl="clear"
 alias vim="nvim"
 alias vz="vim .zshrc"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 
