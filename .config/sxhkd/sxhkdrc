@@ -20,7 +20,7 @@ super + Escape
 
 # firefox
 #
-super + f
+super + alt + f
 	firefox
 
 # Chromium
