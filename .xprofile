@@ -1,5 +1,6 @@
 synclient TapButton1=1
 setxkbmap us &
+xsetroot -cursor-theme left_ptr
 nitrogen --restore &
 dunst &
 picom -f &
