@@ -20,3 +20,6 @@ bspc config focus_follows_pointer true
 bspc config normal_border_color               "#45475a"
 bspc config active_border_color	      	      "#1e1e1e"
 bspc config focused_border_color	      "#74c7ec"
+
+# Apps and Workspaces
+bspc rule -a firefox desktop='^2'
